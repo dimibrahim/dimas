@@ -91,18 +91,6 @@ $biru : #2C19B0;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
 
-  &.w--redirected-checked {
-    background-color: #3898ec;
-    border-top-color: #3898ec;
-    border-bottom-color: #3898ec;
-    border-left-color: #3898ec;
-    border-right-color: #3898ec;
-    background-image: url('../https://via.placeholder.com/1000x600.png?text=IMAGE');
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
   &.w--redirected-focus {
     box-shadow: 0px 0px 3px 1px #3898ec;
   }
@@ -548,21 +536,11 @@ figcaption {
     overflow: hidden;
   }
 
-  &.bg-dummy-image {
-    background-image: url('../https://via.placeholder.com/1000x600.png?text=IMAGE');
-    background-position: 0px 0px;
-    background-size: auto;
-  }
 
   &.section-w-absolute-navbar {
     padding-top: 160px;
   }
 
-  &.bg-shade {
-    background-image: url('../https://via.placeholder.com/1000x600.png?text=IMAGE');
-    background-position: 50% 50%;
-    background-size: auto;
-  }
 
   &.margin-top-large {
     padding-top: 240px;
@@ -721,7 +699,7 @@ figcaption {
   border-radius: 40px;
   background-color: #15db95;
   color: #fff;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.1em;
   text-decoration: none;
@@ -852,30 +830,6 @@ figcaption {
   }
 }
 
-.navbar-container {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 100%;
-  margin-right: 0px;
-  margin-left: 0px;
-  padding-right: 24px;
-  padding-left: 24px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-
-  &.style2 {
-    max-width: 780px;
-    border-radius: 40px;
-  }
-}
 
 .flex-horizontal {
   display: -webkit-box;
@@ -5098,7 +5052,7 @@ figcaption {
 
 
 #gl {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 .frame {
@@ -5129,4 +5083,11 @@ figcaption {
     color: #fff;
     margin: 10px 7px 0 0;
   }
+  .small-only{
+    display: none;
+    @media (max-width: 575px) {
+    display: block;
+    }
+  }
+
 }
