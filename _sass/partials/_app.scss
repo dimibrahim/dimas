@@ -217,6 +217,12 @@ figcaption {
 
   &.cover {
     height: 100vh;
+
+    img {
+      @media (max-width: 575px) {
+        padding: 24px 0 0;
+      }
+    }
   }
 
   &.wrap {
@@ -5090,4 +5096,10 @@ figcaption {
     }
   }
 
+}
+
+.lg-only{
+  @media (max-width: 575px) {
+  display: none;
+  }
 }
