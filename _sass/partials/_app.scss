@@ -222,6 +222,7 @@ figcaption {
     }
 
     img {
+
       @media (max-width: 575px) {
         padding: 24px 0 0;
       }
@@ -2854,7 +2855,7 @@ figcaption {
   border-radius: 50%;
 
   &.tl-br {
-    border-radius: 70px;
+    border-radius: 990px;
   }
 }
 
@@ -5054,11 +5055,12 @@ figcaption {
   }
 
   .button-primary {
-    background-color: $kuning;
+    background-color: #ff5e38;
+
   }
 
   .button-primary-text{
-      color: $biru;
+
       font-weight: 600;
   }
 
