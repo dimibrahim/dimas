@@ -464,7 +464,7 @@ figcaption {
 
 .pre-title {
   margin-bottom: 8px;
-  color: $biru;
+  color: #af5356;
   font-size: 14px;
   font-weight: 700;
 
@@ -2853,10 +2853,6 @@ figcaption {
 
 .rounded-pic {
   border-radius: 50%;
-
-  &.tl-br {
-    border-radius: 990px;
-  }
 }
 
 .c-paging__number {
@@ -5045,27 +5041,34 @@ figcaption {
 
   h1 {
     color: #fff;
+      text-shadow: 1px 1px #333;
   }
 
   .text-large {
-    color: $kuning;
+    color: #af5356;
+      font-weight: 600;
+        text-shadow: 1px 1px #333;
   }
   .pre-title {
-    color: $kuning;
+    color: #af5356;
+      font-weight: 600;
+        text-shadow: 1px 1px #333;
   }
 
   .button-primary {
-    background-color: #ff5e38;
+    background-color: #af5356;
+
 
   }
 
   .button-primary-text{
-
       font-weight: 600;
   }
 
   a {
-    color: $kuning;
+    
+    color: #af5356;
+    font-weight: 600;
   }
 }
 
