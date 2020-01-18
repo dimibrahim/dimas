@@ -222,6 +222,7 @@ figcaption {
     }
 
     img {
+
       @media (max-width: 575px) {
         padding: 24px 0 0;
       }
@@ -463,7 +464,7 @@ figcaption {
 
 .pre-title {
   margin-bottom: 8px;
-  color: $biru;
+  color: #af5356;
   font-size: 14px;
   font-weight: 700;
 
@@ -729,7 +730,7 @@ figcaption {
   }
 
   &.blue-porto {
-    background-color: $biru;
+    background-color: #af5356;;
     margin-top: 20px;
   }
 
@@ -2852,10 +2853,6 @@ figcaption {
 
 .rounded-pic {
   border-radius: 50%;
-
-  &.tl-br {
-    border-radius: 70px;
-  }
 }
 
 .c-paging__number {
@@ -5044,26 +5041,34 @@ figcaption {
 
   h1 {
     color: #fff;
+      text-shadow: 1px 1px #333;
   }
 
   .text-large {
-    color: $kuning;
+    color: #af5356;
+      font-weight: 600;
+        text-shadow: 1px 1px #333;
   }
   .pre-title {
-    color: $kuning;
+    color: #af5356;
+      font-weight: 600;
+        text-shadow: 1px 1px #333;
   }
 
   .button-primary {
-    background-color: $kuning;
+    background-color: #af5356;
+
+
   }
 
   .button-primary-text{
-      color: $biru;
       font-weight: 600;
   }
 
   a {
-    color: $kuning;
+
+    color: #af5356;
+    font-weight: 600;
   }
 }
 
